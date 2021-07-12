@@ -240,3 +240,37 @@ hr {
    }
 
 }
+@media only screen and (min-width:688px) and (max-width:992px)
+{ .container ,.top-blogs , nav ,.blog {
+    width: 100%;
+}
+
+nav{
+    width: 60%;
+    flex-direction: row;}
+    
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center
+
+    }
+    , .blog , .course{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+   .courses , .blogs {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+        .blog{
+            align-items: center;
+            flex-direction: column;
+        }
+        .course{
+            width: 70%;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+}
