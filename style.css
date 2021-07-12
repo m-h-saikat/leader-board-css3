@@ -156,6 +156,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #FF4A60;
 }
 
 .course-banner img {
