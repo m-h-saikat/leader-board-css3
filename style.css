@@ -240,6 +240,8 @@ hr {
    }
 
 }
+
+/* for ipad Device  */
 @media only screen and (min-width:688px) and (max-width:992px)
 { .container ,.top-blogs , nav ,.blog {
     width: 100%;
@@ -271,6 +273,12 @@ nav{
             width: 70%;
             align-items: center;
             margin-bottom: 10px;
+            margin-left: 15%;
+        }
+        .player{
+            justify-content: center;
+
+
         }
 
 }
